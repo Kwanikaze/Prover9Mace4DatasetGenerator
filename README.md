@@ -1,7 +1,7 @@
 This repository will allow you to evaluate Prover9's performance to detect inconsistencies within a generated dataset for a given ontology specified in first order logic (.in)
 
 
-You only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py** and provide .in files. 
+
 
 ## Installation
 1. Please install Prover9 and Mace4 found at [https://www.cs.unm.edu/~mccune/prover9/gui/v05.html]
@@ -14,7 +14,10 @@ For example if you installed Prover9 at C:/
 
 For a detailed motivation of this work and the overall findings, please refer to the given Report.pdf
 
-## Comparing Prover9's Performance between various ontologies for each axiom
+# For given ontologies, generating datasets with Mace4 and evaluating Prover9's performance to detect inconsistencies within the dataset
+You only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py** and provide .in files. 
+
+## Comparing Prover9's performance between various ontologies for each axiom
 **GraphingPerformance.py** simply visualizes the previously outputted performance.csv. For each axiom and ontology it plots Prover9's time to detect a falsified axiom for each of the four locations.
 
 ## Converting .clif files to .in
