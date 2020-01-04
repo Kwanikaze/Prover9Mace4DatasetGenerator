@@ -14,6 +14,9 @@ For example if you installed Prover9 at C:/
 
 For a detailed motivation of this work and the overall findings, please refer to the given Report.pdf
 
+## Graphing Performance
+Using the outputted performance.csv, **GraphingPerformance.py** allows you to visualize for each axiom the time each ontology 
+
 ## Converting .clif files to .in
 
 If you only have .clif files you can install Macleod as found here: [https://github.com/thahmann/macleod]. Macelod is a set of Python 2 scripts that can do the translation from CLIF to the Prover9 and TPTP syntaxes locally on your machine.
@@ -26,4 +29,4 @@ FYI the installation instructions are a bit scattered on the GitHub repo, but so
 - edit your Python System Path variable to include the macleod/bin folder (Section 2, Step 4: https://github.com/thahmann/macleod/blob/master/doc/Macleod-Manual.pdf)
 
 
-The script **clifToInConverter.py** runs Macleod from the command line to convert from .clif to .p9 and then use **p9OutToInConverter.py** to convert the Macleod output of .p9.out files to .in.
+The script **clifToInConverter.py** runs Macleod from the command line to convert from .clif to .p9.out and then use **p9OutToInConverter.py** to convert the Macleod output of .p9.out files to .in.
