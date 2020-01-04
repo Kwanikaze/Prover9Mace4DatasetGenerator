@@ -10,7 +10,7 @@ Please ensure you have Python 3 installed, I recommend Anaconda [https://www.ana
 
 For Windows, download the file: **Prover9-Mace4-v05-setup.exe** and follow the given instructions to download **MSVCP71.DLL** as well
 
-2. Clone this repository to the parent directory of where you installed Prover9 and Mace4. For example if you installed Prover9 at *C:\Program Files\Prover9-Mace4*, clone this repository in *C:\Program Files\*
+2. Clone this repository to the parent directory of where you installed Prover9 and Mace4. For example if you installed Prover9 at *C:\Program Files\Prover9-Mace4*, clone this repository in * C:\Program Files\ *
 
 ## For given ontologies, generating datasets with Mace4 and evaluating Prover9's performance to detect inconsistencies within the dataset
 You only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py** and provide .in files.
