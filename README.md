@@ -4,6 +4,8 @@ This repository will allow you to evaluate Prover9's performance to detect incon
 
 
 ## Installation
+Please ensure you have Python 3 installed, I recommend Anaconda [https://www.anaconda.com/distribution/] as it will allow you to create environments for Python 2 as well (which is required to run Macleod Alpha).
+
 1. Please install Prover9 and Mace4 found at [https://www.cs.unm.edu/~mccune/prover9/gui/v05.html]
 
 For Windows, download the file: **Prover9-Mace4-v05-setup.exe** and follow the given instructions to download MSVCP71.DLL as well
@@ -15,7 +17,9 @@ For example if you installed Prover9 at C:/
 For a detailed motivation of this work and the overall findings, please refer to the given Report.pdf
 
 ## For given ontologies, generating datasets with Mace4 and evaluating Prover9's performance to detect inconsistencies within the dataset
-You only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py** and provide .in files. 
+You only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py** and provide .in files.
+
+
 
 ## Comparing Prover9's performance between various ontologies for each axiom
 **GraphingPerformance.py** simply visualizes the previously outputted performance.csv. For each axiom and ontology it plots Prover9's time to detect a falsified axiom for each of the four locations.
