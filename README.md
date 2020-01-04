@@ -14,8 +14,8 @@ For example if you installed Prover9 at C:/
 
 For a detailed motivation of this work and the overall findings, please refer to the given Report.pdf
 
-## Graphing Performance
-Using the outputted performance.csv, **GraphingPerformance.py** allows you to visualize for each axiom the time each ontology 
+## Comparing Prover9's Performance between various ontologies for each axiom
+**GraphingPerformance.py** simply visualizes the previously outputted performance.csv. For each axiom and ontology it plots Prover9's time to detect a falsified axiom for each of the four locations.
 
 ## Converting .clif files to .in
 
