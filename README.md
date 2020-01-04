@@ -14,6 +14,6 @@ For example if you installed Prover9 at C:/
 
 For a detailed motivation of this work and the overall findings, please refer to the given Report.pdf
 
-##Converting .clif files to .in
+## Converting .clif files to .in
 
 If you only have .clif files you can install Macleod to convert from .clif to .p9 using **clifToInConverter.py** and then convert the Macleod output of .p9.out files to .in using **p9OutToInConverter.py**
