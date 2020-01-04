@@ -20,9 +20,8 @@ If you only have .clif files you can install Macleod as found here: [https://git
 For Windows, you will need to install the PyWin32 and WMI dependencies on top of the Python libraries mentioned in the Macleod README. 
 
 FYI the installation instructions are a bit scattered on the GitHub repo, but some things to note:
-- in addition to the README, also look at these instructions: https://github.com/thahmann/macleod/blob/master/doc/2014-07-31_setup.txt 
-- make sure to clone our COLORE repository (http://github.com/gruninger/colore) onto your computer
-- clone Torsten's scripts into their own folder
+- in addition to the README, also look at these instructions: [https://github.com/thahmann/macleod/blob/master/doc/2014-07-31_setup.txt]
+- clone Macleod scripts into their own folder
 - change the paths in macleod_win.conf to point to the required folders
 - edit your Python System Path variable to include the macleod/bin folder (Section 2, Step 4: https://github.com/thahmann/macleod/blob/master/doc/Macleod-Manual.pdf)
 
