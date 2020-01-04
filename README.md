@@ -1,6 +1,7 @@
-This repository contains a collection of scripts. 
+This repository will allow you to evaluate Prover9's performance to detect inconsistencies within a generated dataset for a given ontolligy specified in first order logic (.in)
 
-The user only needs to edit the specified lines in DatasetGeneratorAndBenchMarks.py.
+You only needs to edit the specified lines in DatasetGeneratorAndBenchMarks.py and provide .in files. 
+If you only have .p9 files you can convert 
 
 1. Please install Prover9 and Mace4 found at https://www.cs.unm.edu/~mccune/prover9/gui/v05.html
 
