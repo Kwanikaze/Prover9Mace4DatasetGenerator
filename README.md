@@ -15,9 +15,9 @@ For Windows, download the file: **Prover9-Mace4-v05-setup.exe** and follow the g
 
 ## For given ontologies, generating datasets with Mace4 and evaluating Prover9's performance to detect inconsistencies within the dataset
 Running your IDE as an Administrator, you only need to edit the specified lines in **DatasetGeneratorAndBenchMarks.py**.
-*classCardinalityRange* is a dictionary where the keys are the ontology classes and the values are the max cardinality requirements.
-*properties* is a list for the ontology properties.
-*cardinalityPermutationNumModels* is a list where the length of the list is the number of datasets to generate for each ontology.
+- *classCardinalityRange* is a dictionary where the keys are the ontology classes and the values are the max cardinality requirements.
+- *properties* is a list for the ontology properties.
+- *cardinalityPermutationNumModels* is a list where the length of the list is the number of datasets to generate for each ontology.
 
 For each axiom and ontology the scripts plot Prover9's time to detect a falsified axiom for each of the four locations: beginning, end, randomly placed, as well as skolemized and split up.
 
