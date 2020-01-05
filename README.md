@@ -8,13 +8,13 @@ Please ensure you have Python 3 installed, I recommend Anaconda [https://www.ana
 
 For Windows, download the file: **Prover9-Mace4-v05-setup.exe** and follow the given instructions to download **MSVCP71.DLL** as well
 
-2. Clone this repository to the directory of where you installed Prover9 and Mace4. For example if you installed Prover9 at *C:\Program Files\Prover9-Mace4*, clone this repository to that same directory.
+2. Running your terminal as Administrator, clone this repository to the directory of where you installed Prover9 and Mace4. For example if you installed Prover9-Mace4 at *C:\Program Files\Prover9-Mace4*, clone this repository to that same directory.
 
 3. Create a folder named 'in_files' in the *\Prover9-Mace4\bin-win32\* directory and place your .in files there.
 
 
 ## For given ontologies, generating datasets with Mace4 and evaluating Prover9's performance to detect inconsistencies within the dataset
-You only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py**.
+Running your IDE as an Administrator, you only needs to edit the specified lines in **DatasetGeneratorAndBenchMarks.py**.
 *classCardinalityRange* is a dictionary where the keys are the ontology classes and the values are the max cardinality requirements.
 *properties* is a list for the ontology properties.
 *cardinalityPermutationNumModels* is a list where the length of the list is the number of datasets to generate for each ontology.
