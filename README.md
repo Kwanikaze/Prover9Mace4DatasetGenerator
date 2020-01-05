@@ -10,7 +10,7 @@ For Windows, download the file: **Prover9-Mace4-v05-setup.exe** and follow the g
 
 2. Running your terminal as Administrator, clone this repository to the directory of where you installed Prover9 and Mace4. For example if you installed Prover9-Mace4 at *C:\Program Files\Prover9-Mace4*, clone this repository to that same directory.
 
-3. Create a folder named 'in_files' in the *\Prover9-Mace4\bin-win32\* directory and place your .in files there.
+3. Create a folder named 'in_files' in the *\\Prover9-Mace4\bin-win32\\* directory and place your .in files there.
 
 
 ## For given ontologies, generating datasets with Mace4 and evaluating Prover9's performance to detect inconsistencies within the dataset
