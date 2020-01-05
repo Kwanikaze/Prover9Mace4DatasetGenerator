@@ -2,7 +2,7 @@ This repository will allow you to evaluate Prover9's performance to detect incon
 
 
 ## Installation
-Please ensure you have Python 3 installed, I recommend Anaconda [https://www.anaconda.com/distribution/] as it will allow you to create environments for Python 2 as well (which is required to run Macleod Alpha as discussed in the last section below).
+Please ensure you have Python 3 installed, I recommend Anaconda [https://www.anaconda.com/distribution/] as it will allow you to create environments for Python 2 as well (which is required to run the optional library Macleod Alpha as discussed in the last section below).
 
 1. Please install Prover9 and Mace4 found at [https://www.cs.unm.edu/~mccune/prover9/gui/v05.html]
 
